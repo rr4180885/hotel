@@ -1,0 +1,865 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.center-div h2 {
+  font-size: 60px;
+  font-family: Lucida Calligraphy;
+  color: white;
+}
+.top-nav {
+  background-color: black;
+  top: 0px;
+  left: 0px;
+  height: 28px;
+  width: 100%;
+  padding: 2px auto;
+  position: fixed;
+  z-index: 81;
+  overflow: hidden;
+}
+.home {
+  color: white;
+  font-size: 15px;
+  margin: 2px 20vh;
+  font-family: tahoma;
+}
+.home a,
+.home-right a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8vh;
+}
+.home-right a:hover {
+  color: rgb(231, 228, 222);
+  text-decoration: none;
+}
+
+.home a:hover {
+  color: rgb(231, 228, 222);
+  text-decoration: none;
+}
+.home-right {
+  float: right;
+  display: flex;
+  margin-top: -25px;
+  color: white;
+  font-size: 15px;
+  margin-right: 80px;
+  font-family: tahoma;
+}
+.home-right li {
+  padding: 2px 12px;
+}
+.bars:hover {
+  color: orange;
+  cursor: pointer;
+}
+.close:hover {
+  color: orange;
+  cursor: pointer;
+}
+/* **********************black nav part ends here****************************** */
+
+/* ********Main nav start from her************* */
+
+.midnav {
+  height: 105px;
+  padding: 15px;
+  padding-left: 9%;
+  width: 100%;
+  background-color: rgb(231, 231, 231);
+  border: 1px solid black;
+  position: fixed;
+  z-index: 80;
+  margin-top: 12px;
+  overflow: hidden;
+}
+.midnav a {
+  color: rgb(82, 79, 79);
+  font-size: 0.82vw;
+  text-decoration: none;
+
+  padding: 5px 0.2vw;
+  margin-left: 2%;
+}
+.midnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: orange;
+  text-decoration: none;
+}
+#logo {
+  margin-left: 50px;
+}
+#book {
+  border: 0.5px solid black;
+  padding: 8px 40px;
+  background-color: rgba(250, 99, 28, 0.959);
+  color: white;
+  outline: none;
+}
+#book:hover {
+  color: black;
+  background-color: white;
+}
+.icon {
+  display: inline-flex;
+  margin-left: 80px;
+  font-size: 30px;
+}
+
+.button {
+  margin-left: 200px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  color: inherit;
+  background-color: white;
+  cursor: pointer;
+}
+
+#mySidebar {
+  font-size: 20px;
+  background-color: rgb(247, 244, 244);
+  color: black;
+  border: none;
+  outline: none;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+}
+#mySidebar a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Times New Roman;
+  font-size: 15px;
+}
+#mySidebar a:hover {
+  color: orange;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.center-div {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0.7;
+  transition: all 1s ease-in;
+}
+.center-div .buttons {
+  margin-left: 440px;
+  border: none;
+  outline: none;
+  position: absolute;
+  padding-left: 0.4em !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0px;
+}
+.main {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 10%;
+  background-image: url(/image/main.jpg);
+}
+.icons a {
+  color: black;
+}
+
+.center-div2 {
+  background-color: rgba(0, 0, 0, 0.375);
+  width: 100%;
+  height: 550px;
+  clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+  z-index: -1;
+  display: block;
+}
+.center {
+  transform: translateX(50%) translateY(50%);
+  position: absolute;
+  top: 55%;
+  left: 48%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  width: 210px;
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 1px solid orange;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.479);
+  color: white;
+  font-weight: bold;
+}
+.center1 {
+  transform: translateX(50%) translateY(50%);
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  width: 210px;
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 1px solid orange;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.479);
+  color: white;
+  font-weight: bold;
+}
+.center1:hover {
+  background-color: rgba(243, 93, 6, 0.938);
+}
+.center:hover {
+  background-color: rgba(243, 93, 6, 0.938);
+}
+
+.booking-btn {
+  float: right;
+  height: auto;
+  width: 65%;
+  background-color: #fff;
+  margin-right: 150px;
+  margin-top: 10px;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  display: flex;
+}
+.booking-btn div {
+  margin-left: 5px;
+  padding: 5px 15px;
+  border-right: 1px solid rgba(243, 93, 6, 0.938);
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  color: gray;
+}
+.booking-btn div:last-child {
+  border-right: none;
+}
+.booking-btn div:nth-last-child(5) {
+  border: none;
+}
+.booking-btn div #menu1 {
+  outline-style: none;
+  border-radius: 0;
+  background-color: inherit;
+  border: none;
+}
+#availaiblity {
+  outline: none;
+  border-radius: 0;
+  padding: 5px 15px;
+
+  background-color: rgba(243, 93, 6, 0.938);
+  font-weight: bold;
+}
+#availaiblity:hover {
+  background-color: orangered;
+}
+
+.mySlides {
+  display: none;
+  height: 410px;
+}
+.slide {
+  border: 1px solid black;
+  width: 45%;
+  height: 410px;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.contain {
+  padding: 5px 20px;
+
+  width: 40%;
+  margin-top: -410px;
+  left: 55%;
+
+  position: absolute;
+  z-index: 1;
+  height: 400px;
+  justify-content: center;
+}
+.contain h2 {
+  font-size: 40px;
+  font-family: Lucida Calligraphy;
+  color: rgb(201, 177, 46);
+}
+.icons {
+  margin-left: 100px;
+  color: black;
+}
+.icons i {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.icons a:hover {
+  color: rgb(201, 177, 46);
+}
+.contain p {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.feedback {
+  border: 1px solid black;
+  height: 60px;
+  width: 150px;
+  position: absolute;
+  top: 150%;
+  z-index: 3;
+  background-color: rgb(8, 16, 39);
+  color: white;
+  text-align: center;
+
+  margin-left: -120px;
+}
+.feedback i {
+  margin-left: 30px;
+}
+
+.feedback:hover {
+  margin-left: 0px;
+  transition: 2s easein;
+}
+.feedback p {
+  margin-top: 20px;
+}
+.chat {
+  border: 1px solid black;
+  height: 60px;
+  width: 150px;
+  position: absolute;
+  top: 159%;
+  z-index: 3;
+  background-color: rgb(13, 43, 133);
+  color: white;
+  text-align: center;
+
+  margin-left: -120px;
+}
+.chat i {
+  margin-left: 70px;
+}
+
+.chat:hover {
+  margin-left: 0px;
+  transition: 2s easein;
+}
+.chat p {
+  margin-top: 20px;
+}
+
+.descrption h4 {
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+}
+.descrption h3 {
+  font-size: 16px;
+  text-align: center;
+  color: orange;
+  font-weight: 600;
+}
+.descrption h3 a {
+  text-decoration: none;
+}
+.descrption h3::after {
+  content: "";
+  display: block;
+  background-color: rgb(189, 188, 184);
+  height: 1px;
+  width: 40%;
+  margin: 20px auto 5px;
+}
+#Rooms h1 {
+  font-size: 30px;
+  font-family: Lucida Calligraphy;
+  color: rgb(18, 20, 51);
+  margin: 20px;
+  margin-left: 60px;
+}
+#Rooms p {
+  width: 43%;
+  margin-left: 63px;
+  font-size: 13px;
+  font-style: italic;
+  color: rgb(26, 26, 71);
+}
+#Rooms .btn {
+  float: right;
+
+  margin-right: 300px;
+  margin-top: -20px;
+}
+#Rooms .btn a {
+  margin-left: 20px;
+  font-size: 15px;
+  font-family: arial;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+#Rooms .btn a:hover {
+  color: orange;
+}
+.slide-img {
+  width: 100%;
+  margin: 30px 3px;
+  border: 1px solid black;
+}
+.contain h2::after {
+  content: "";
+  display: block;
+  background-color: rgb(189, 188, 184);
+  height: 1px;
+  width: 100%;
+  margin: 20px auto 5px;
+}
+.a {
+  color: orange;
+}
+#Dining h1 {
+  font-size: 30px;
+  font-family: Lucida Calligraphy;
+  color: rgb(18, 20, 51);
+  margin: 20px;
+  margin-left: 60px;
+}
+#Rooms h1::after {
+  content: "";
+  display: block;
+  background-color: rgb(189, 188, 184);
+  height: 1px;
+  width: 50%;
+  margin: 10px 0px 0px 5px;
+}
+#Dining h1::after {
+  content: "";
+  display: block;
+  background-color: rgb(189, 188, 184);
+  height: 1px;
+  width: 50%;
+  margin: 10px 0px 0px 5px;
+}
+#Dining p {
+  width: 43%;
+  margin-left: 63px;
+  font-size: 13px;
+  font-style: italic;
+  color: rgb(26, 26, 71);
+}
+
+#Dining .btn {
+  float: right;
+
+  margin-right: 300px;
+  margin-top: -20px;
+}
+
+#Dining .btn a {
+  margin-left: 20px;
+  font-size: 15px;
+  font-family: arial;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+#Dining .btn a:hover {
+  color: orange;
+}
+.dropup {
+  display: block;
+}
+.slide-img2 {
+  height: 300px;
+  width: 50%;
+  border: 1px solid black;
+  margin-left: 60px;
+}
+
+.nav-tabs {
+  margin-bottom: 15px;
+}
+.sign-with {
+  margin-top: 25px;
+  padding: 20px;
+}
+div#OR {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #c2c2c2;
+  border-radius: 50%;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: center;
+  font-size: 12px;
+  float: right;
+  position: absolute;
+  right: -16px;
+  top: 40%;
+  z-index: 1;
+  background: #dfdfdf;
+}
+
+/* Extra styles for the cancel button */
+.slide2-container {
+  float: right;
+  width: 45%;
+  height: 420px;
+  margin-top: -300px;
+}
+
+.slide2-container h2 {
+  font-size: 30px;
+  font-family: Lucida Calligraphy;
+  color: rgb(201, 177, 46);
+  padding: 2px 20px;
+}
+.slide2-container h2::after {
+  content: "";
+  height: 2px;
+  display: block;
+  background-color: rgb(221, 215, 215);
+  width: 90%;
+  margin-top: 10px;
+}
+.slide2-container h6 {
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 30px;
+  margin-top: 40px;
+  color: rgb(77, 73, 73);
+  line-height: 1.5;
+  width: 90%;
+}
+.ui-datepicker-calendar {
+  background-color: rgba(255, 255, 255, 0.596);
+}
+
+.ui-datepicker-calendar th {
+  padding: 5px 10px;
+  color: #fff;
+  border-collapse: collapse;
+  text-align: center;
+}
+.ui-datepicker-calendar td {
+  width: 60px;
+  height: 35px;
+
+  text-align: center;
+}
+
+.ui-datepicker-title {
+  background: orangered;
+  padding: 8px;
+  text-align: center;
+  color: #fff;
+}
+.ui-datepicker-calendar td a {
+  padding: 10px;
+  color: #fbfdff;
+
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.ui-datepicker-calendar td a:hover {
+  background: orangered;
+  color: #fff;
+}
+
+.ui-datepicker-prev {
+  float: left;
+  padding: 10px;
+  color: #fff;
+}
+.ui-datepicker-prev span {
+  cursor: pointer;
+}
+.ui-datepicker-next span {
+  cursor: pointer;
+}
+
+.ui-datepicker-next {
+  float: right;
+  padding: 10px;
+  color: #fff;
+}
+
+#depart {
+  text-align: center;
+  width: 130px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+#return {
+  width: 130px;
+  cursor: pointer;
+  text-align: center;
+}
+.booking-btn select {
+  height: 40px;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.booking-btn option {
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.booking-btn label {
+  color: rgb(240, 88, 17);
+}
+.booking-btn input[type="text"] {
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.booking-btn input[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  border-radius: 0px;
+  background-color: rgb(240, 88, 17);
+  outline: none;
+  border: none;
+  color: white;
+}
+.booking-btn input[type="submit"]:hover {
+  background-color: rgba(255, 68, 0, 0.664);
+}
+
+.contactus {
+  width: 95%;
+  height: 300px;
+  background-color: gray;
+  margin-left: 50px;
+}
+
+.jumbotron {
+  background-color: #f4511e;
+  color: #fff;
+  padding: 100px 25px;
+}
+.container-fluid {
+  padding: 60px 50px;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.logo-small {
+  color: rgb(201, 177, 46);
+  font-size: 50px;
+}
+.logo {
+  color: rgb(201, 177, 46);
+  font-size: 200px;
+}
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.carousel {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: none;
+  background-color: white;
+}
+.carousel .carousel-control.right {
+  background-image: none;
+  color: rgb(201, 177, 46);
+}
+.carousel .carousel-control.left {
+  background-image: none;
+  color: rgb(201, 177, 46);
+}
+.carousel .carousel-indicators li {
+  border-color: rgb(201, 177, 46);
+}
+.carousel .carousel-indicators li.active {
+  background-color: rgb(201, 177, 46);
+}
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+.item span {
+  font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+/* Full-width input fields */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 300px;
+}
+
+#myBtn:hover {
+  background-color: rgb(175, 174, 174);
+}
+
+.foot {
+  width: 100%;
+  height: 300px;
+  background: rgb(70, 68, 68);
+}
+.send {
+  background-color: rgb(201, 177, 46);
+}
+.foot {
+  background-color: rgb(51, 50, 50);
+  color: white;
+}
+.foot a {
+  color: white;
+}
+
+.socialbtn i {
+  padding-left: 10px;
+  color: white;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+.socialbtn {
+  text-align: center;
+}
+.ab a:hover {
+  color: rgb(187, 147, 37);
+  text-decoration: none;
+}
+.socialbtn i:hover {
+  color: rgb(187, 147, 37);
+  text-decoration: none;
+  cursor: pointer;
+}
+.con {
+  background: url("http://www.prepbootstrap.com/Content/images/shared/misc/contact-us.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.modal-login {
+  width: 320px;
+}
+.modal-login .modal-content {
+  border-radius: 1px;
+  border: none;
+  color: black;
+}
+.modal-login .modal-header {
+  position: relative;
+  justify-content: center;
+  background: #f2f2f2;
+}
+.modal-login .modal-body {
+  padding: 30px;
+  color: black;
+}
+.modal-login .modal-footer {
+  background: #f2f2f2;
+  color: black;
+}
+.modal-login h4 {
+  text-align: center;
+  font-size: 26px;
+  color: black;
+}
+.modal-login label {
+  font-weight: normal;
+  font-size: 13px;
+  color: rgb(39, 38, 38);
+}
+.modal-login .form-control,
+.modal-login .btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+.modal-login .hint-text {
+  text-align: center;
+}
+.modal-login .close {
+  position: absolute;
+  color: black;
+  top: 15px;
+  right: 15px;
+}
+.modal-login .checkbox-inline {
+  margin-top: 12px;
+}
+.modal-login input[type="checkbox"] {
+  margin-top: 2px;
+}
+.modal-login .btn {
+  min-width: 100px;
+  background: #cc5d14;
+  border: none;
+  line-height: normal;
+  outline: none;
+}
+.modal-login .btn:hover,
+.modal-login .btn:focus {
+  background: #e48e0e;
+}
+.modal-login .hint-text a {
+  color: #999;
+}
