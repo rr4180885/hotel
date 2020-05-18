@@ -9,8 +9,14 @@ html,body
     margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
+html
+{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
 a {
   text-decoration: none;
 }
@@ -111,7 +117,7 @@ a:hover {
 .links
 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   
 }
 .links div
@@ -168,8 +174,10 @@ a:hover {
   border: none;
   outline: none;
   position: fixed;
-  top: 0px;
+  top: 0;
+  left: 0;
   z-index: 100;
+  
 }
 #mySidebar a {
   color: black;
@@ -180,6 +188,7 @@ a:hover {
   margin-top: 10px;
   font-family: Times New Roman;
   font-size: 15px;
+  
 }
 #mySidebar a:hover {
   color: orange;
@@ -807,6 +816,16 @@ div#OR {
   grid-template-columns: 1fr;
   margin-top: 100px;
 }
+.booking-btn {
+  width: 100%;
+}
+.logo img
+{
+  width: 50%;
+  height: auto;
+
+}
+
 }
 /* Full-width input fields */
 

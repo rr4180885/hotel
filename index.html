@@ -169,15 +169,16 @@
       </div>
     </div>
     <div class="w3-white midnav">
+      <button onclick="w3_open()" class="button" style="outline: none;">
+        <i class="fa-2x fa fa-bars bars" style="outline: none;"></i>
+      </button>
       <div class="links">
-          <div><button onclick="w3_open()" class="button" style="outline: none;">
-            <i class="fa-2x fa fa-bars bars" style="outline: none;"></i>
-          </button></div>
+          
           <div><a href="#Rooms">Room & Suites</a></div>
           <div><a href="#Dining"> Dining</a></div>
           <div><a href="#service"> service</a></div>
           
-          <div><img src="./image/logo.png" height="90px"  align="center" id="logo" /></div>
+          <div class="logo"><img src="./image/logo.png" height="90px"  align="center" id="logo" /></div>
           <div><a href="#">Wellness</a></div>
           <div><a href="#"> Meeting & Events</a></div>
           <div><a href="#"> Destination</a></div>
@@ -862,7 +863,7 @@
     </script>
     <script>
       function w3_open() {
-        document.getElementById("mySidebar").style.width = "18%";
+        document.getElementById("mySidebar").style.width = "400px";
 
         document.getElementById("mySidebar").style.marginLeft = "0px";
       }
