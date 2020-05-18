@@ -91,7 +91,7 @@
       });
     </script>
   </head>
-  <body>
+  <body onload="myFunction()">
     <div id="preloader">
        
     </div>
@@ -928,6 +928,13 @@
           document.body.scrollTop = 0; // For Safari
           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
+    </script>
+    <script>
+      var preloader=document.getElementById("preloader");
+      function myFunction()
+      {
+        preloader.style.display="none";
+      }
     </script>
   </body>
 </html>
