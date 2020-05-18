@@ -169,33 +169,35 @@
       </div>
     </div>
     <div class="w3-white midnav">
-      <button onclick="w3_open()" class="button"style="outline: none;">
-        <i class="fa-2x fa fa-bars bars" style="outline: none;"></i>
-      </button>
-      <a href="#Rooms">Room & Suites</a>
-      <a href="#Dining"> Dining</a>
-      <a href="#service"> service</a>
-      
-      <img
-        src="./image/logo.png"
-        height="90px"
-        width="200px"
-        align="center"
-        id="logo"
-      />
-      <a href="#">Wellness</a>
-      <a href="#"> Meeting & Events</a>
-      <a href="#"> Destination</a>
-      <a href="#" id="book"> Book Now</a>
+      <div class="links">
+          <div><button onclick="w3_open()" class="button" style="outline: none;">
+            <i class="fa-2x fa fa-bars bars" style="outline: none;"></i>
+          </button></div>
+          <div><a href="#Rooms">Room & Suites</a></div>
+          <div><a href="#Dining"> Dining</a></div>
+          <div><a href="#service"> service</a></div>
+          
+          <div><img src="./image/logo.png" height="90px"  align="center" id="logo" /></div>
+          <div><a href="#">Wellness</a></div>
+          <div><a href="#"> Meeting & Events</a></div>
+          <div><a href="#"> Destination</a></div>
+      </div>
+      <div class="book">
+          <a href="#" id="book"> Book Now</a>
+      </div>
     </div>
-    <div class="main">
+<div class="main">
       <div class="center-div2">
-        <button class="center">
-          30% Discount
-        </button>
-        <button class="center1">
-          Book Now
-        </button>
+       <div>
+          <button class="center">
+            30% Discount
+          </button>
+       </div>
+       <div>
+          <button class="center1">
+            Book Now
+          </button>
+       </div>
       </div>
       <div class="booking-btn">
        <form>
@@ -233,12 +235,14 @@
          
        </form>
     </div>
+</div>
     <br />
     <br />
+    
 
     <section id="description">
-      <br />
-      <br />
+      <div  class="describe">
+      
       <div class="slide">
         <div class="w3-content w3-display-container">
           <img
@@ -309,7 +313,7 @@
           Fondly referred to as the Grand Dame of Chowringhee, our 5 star hotel:
           The Oberoi Grand has been an icon on the landscape of Kolkata for more
           than a century; with a reputation for taking care of its guests that
-          befits the best hotel in Kolkata.<br /><br />
+          befits the best hotel in Kolkata.<br><br>
 
           The sense of calm that pervades the outdoor space is carried into the
           classically appointed rooms and suites that encircle the courtyard.
@@ -317,6 +321,11 @@
           spa ensure that all your needs are covered.
         </p>
       </div>
+    </div>
+
+
+
+
       <div class="feedback">
         <p>Feedback <i class="fa fa-chevron-circle-right"></i></p>
       </div>
@@ -325,6 +334,9 @@
         <p>Chat <i class="fa fa-chevron-circle-right"></i></p>
       </div>
       <br />
+     
+      </section>
+    
 
       <br />
       <br />
@@ -338,96 +350,54 @@
           </h3>
         </h4>
       </div>
-    </section>
+    
     <br />
     <br />
+
     <section id="Rooms">
-      <h1>May we show you to your room?</h1>
-      <p>
-        Our rooms and suites have been thoughtfully designed for business and
-        leisure travellers to Kolkata; with classic furnishings, heritage style
-        design features, modern technologies and 24 hour services.
-      </p>
-      <div class="btn">
-        <a href="#">Rooms</a>
-        <a href="#">Suites</a>
-        <a href="#" class="a">View ALL <i class="fa fa-chevron-right a"></i></a>
-      </div>
-
-      <div class="slide-img">
-        <div class="w3-display-container slide1">
-          <img
-            class="myslide1"
-            src="./image/hotels (6).jpg"
-            style="width: 100%; height: 700px;"
-          />
-
-          <img
-            class="myslide1"
-            src="./image/Guest+Room+Balcony.jpg"
-            style="width: 100%; height: 700px;"
-          />
-          <img
-            class="myslide1"
-            src="./image/hall.jpg"
-            style="width: 100%; height: 700px;"
-          />
-          <img
-            class="myslide1"
-            src="./image/Kolkata.jpg"
-            style="width: 100%; height: 700px;"
-          />
-          <img
-            class="myslide1"
-            src="./image/bed2.jpg"
-            style="width: 100%; height: 700px;"
-          />
-          <img
-            class="myslide1"
-            src="./image/g4.jpg"
-            style="width: 100%; height: 700px;"
-          />
-          <img
-            class="myslide1"
-            src="./image/game.jpg"
-            style="width: 100%; height: 700px;"
-          />
-
-          <img
-            class="myslide1"
-            src="./image/bed2.jpg"
-            style="width: 100%; height: 700px;"
-          />
-          <img
-            class="myslide1"
-            src="./image/bed2s.jpg"
-            style="width: 100%; height: 700px;"
-          />
-
-          <img
-            class="myslide1"
-            src="./image/e2.jpg"
-            style="width: 100%; height: 700px;"
-          />
-
-          <button
-            class="w3-button w3-white w3-display-left"
-            onclick="plusDivs1(-1)"
-          >
-            &#10094;
-          </button>
-          <button
-            class="w3-button w3-white w3-display-right"
-            onclick="plusDivs1(1)"
-          >
-            &#10095;
-          </button>
+      <div class="rooms">
+        <div>
+          <h1>May we show you to your room?</h1>
+          <p>
+            Our rooms and suites have been thoughtfully designed for business and
+            leisure travellers to Kolkata; with classic furnishings, heritage style
+            design features, modern technologies and 24 hour services.
+          </p>
+        </div>
+        <div class="btn">
+          <a href="#">Rooms</a>
+          <a href="#">Suites</a>
+          <a href="#" class="a">View ALL <i class="fa fa-chevron-right a"></i></a>
+        </div>
+        
+        <div class="slide-img">
+          <div class="w3-display-container slide1">
+            <img class="myslide1" src="./image/hotels (6).jpg" style="width: 100%; height: 700px;" />
+        
+            <img class="myslide1" src="./image/Guest+Room+Balcony.jpg" style="width: 100%; height: 700px;" />
+            <img class="myslide1" src="./image/hall.jpg" style="width: 100%; height: 700px;" />
+            <img class="myslide1" src="./image/Kolkata.jpg" style="width: 100%; height: 700px;" />
+            <img class="myslide1" src="./image/bed2.jpg" style="width: 100%; height: 700px;" />
+            <img class="myslide1" src="./image/g4.jpg" style="width: 100%; height: 700px;" />
+            <img class="myslide1" src="./image/game.jpg" style="width: 100%; height: 700px;" />
+        
+            <img class="myslide1" src="./image/bed2.jpg" style="width: 100%; height: 700px;" />
+            <img class="myslide1" src="./image/bed2s.jpg" style="width: 100%; height: 700px;" />
+        
+            <img class="myslide1" src="./image/e2.jpg" style="width: 100%; height: 700px;" />
+        
+            <button class="w3-button w3-white w3-display-left" onclick="plusDivs1(-1)">
+              &#10094;
+            </button>
+            <button class="w3-button w3-white w3-display-right" onclick="plusDivs1(1)">
+              &#10095;
+            </button>
+          </div>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
+     
     </section>
+
     <section id="Dining">
       <h1>where would you like to dine?</h1>
       <p>
@@ -439,9 +409,8 @@
           >VIEW ALL RESTAURANTS <i class="fa fa-chevron-right a"></i
         ></a>
       </div>
-      <br>
-      <br>
-      <div>
+      
+      <div class="describe">
         <div class="slide-img2">
           <div class="w3-display-container slide2">
         
@@ -786,6 +755,7 @@
     <!-- Copyright -->
   
   </footer>
+  
   <!-- Footer -->
   <!-- Footer -->
 <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
