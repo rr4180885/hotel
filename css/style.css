@@ -4,8 +4,7 @@
   box-sizing: border-box;
   list-style: none;
 }
-#preloader
-{
+#preloader {
   background: #fff url("/image/preloader.gif") no-repeat center;
   width: 100%;
   height: 100%;
@@ -22,7 +21,6 @@ html {
   scroll-behavior: smooth;
   overflow-y: scroll;
 }
-
 
 a:hover {
   text-decoration: none;
@@ -118,7 +116,7 @@ a:hover {
 .links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: 1fr 1fr;
 }
 .links div {
   display: flex;
@@ -811,7 +809,7 @@ div#OR {
 
 .foot {
   width: 100%;
-  height: 300px;
+
   background: rgb(70, 68, 68);
 }
 .send {
